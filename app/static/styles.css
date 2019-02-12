@@ -1,19 +1,69 @@
-article .welc p{
+article .welc p {
   text-align: center;
   font-size: 250%;
 }
-#head{
+
+#head {
   font-family: Permanent Marker;
 }
-.img{
+
+.img {
   margin-left: 40%;
   margin-right: 40%;
 }
-.mess1{
+
+.mess1 {
   text-align: center;
   margin-top: 5%;
   font-size: 175%;
 }
-.style{
+
+.style {
   font-family: Courgette;
+}
+
+.btns {
+  margin: 2.5%;
+  align-content: : center;
+}
+
+.button {
+  display: block;
+  border-radius: 10px;
+  background-color: #22201E;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 8px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 15px;
+}
+
+.button:hover span:after {
+  opacity: 0.75;
+  right: 0;
 }
