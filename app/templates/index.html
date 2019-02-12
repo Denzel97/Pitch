@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Indie+Flower|Permanent+Marker|Varela+Round" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+
+<div class="content">
+  <div id="pageintro">
+    <article class="">
+      <div class="welc">
+        <p><em>Are you looking to pitch an idea?</em>
+          <br><strong>welcome to One Minute Pitch.</strong></p>
+
+      </div>
+    </article>
+
+  </div>
+
+</div>
+
+
+{% endblock %}
