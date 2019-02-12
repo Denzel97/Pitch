@@ -2,3 +2,10 @@ article .welc p{
   text-align: center;
   font-size: 150%;
 }
+#head{
+  font-family: Permanent Marker;
+}
+.img{
+  margin-left: 40%;
+  margin-right: 40%;
+}
